@@ -1,0 +1,36 @@
+Package: EasyMergeR
+Title: An shiny application for easy merge of xlsx files and providing basic data cleanning functions
+Version: 0.0.0.9000
+Authors@R: person('Ziyu', 'Zhu', email = '2022120162@hospital.cqmu.edu.cn', role = c('cre', 'aut'))
+Description: 
+License: What license is it under?
+Imports: 
+    bslib (>= 0.4.0),
+    config (>= 0.3.1),
+    dplyr (>= 1.0.10),
+    golem (>= 0.3.3),
+    lubridate (>= 1.8.0),
+    magrittr (>= 2.0.3),
+    openxlsx (>= 4.2.5),
+    pkgload,
+    purrr (>= 0.3.4),
+    readr,
+    rlang,
+    shiny (>= 1.7.2),
+    shinyalert,
+    shinythemes (>= 1.2.0),
+    shinyWidgets,
+    skimr (>= 2.1.4),
+    stringr (>= 1.4.1),
+    thinkr (>= 0.16),
+    tidyr (>= 1.2.1),
+    waiter (>= 0.2.5)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Depends: 
+    R (>= 2.10),
+    tidyverse (>= 1.3.2)
